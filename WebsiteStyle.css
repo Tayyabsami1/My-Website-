@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#Mylogo img {
+    width: 50px;
+    height: 50px;
+    padding-top: 3px;
+
+    border-radius: 100000px;
+    margin: 4px 10px;
+}
+
+/* Styling my Nav Bar  */
+#mynav {
+    position: relative;
+    height: 60px;
+    background-color: rgb(24, 19, 19);
+    display: flex;
+
+}
+
+#mynav::before {
+    content: "";
+    background-color: rgb(24, 19, 19);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+#mynav ul li a {
+    color: white;
+    list-style: none;
+    padding: 5px 20px;
+    text-decoration: none;
+
+}
+
+#mynav ul li a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 100px;
+}
+
+#mynav ul li {
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+#mynav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Basic-Content {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 150px;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+
+}
+
+#Basic-Content #Intro-P {
+    display: flexbox;
+    padding-top: 5px;
+}
+
+#Basic-Content #Main-id {
+    text-align: center;
+    padding-top: 5px;
+}
+
+#Motivate-Button {
+    margin-top: 7px;
+}
+
+#Basic-Content::before {
+    content: "";
+    background: url('Bg1.jpg') no-repeat center center/cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+#Basic-Content {
+    padding-top: 20px;
+}
+
+.MyStyle {
+    font-size: 1.9rem;
+    color: darkslategray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:white;
+}
+
+#Intro-P {
+    color: white;
+    margin-top: 40px;
+    font-size: 1.3rem;
+    background-color: rgb(15, 238, 186);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+
+#Motivate-Button {
+    margin-top: 20px;
+    height: 30px;
+    width: 90px;
+    color: rgb(218, 8, 218);
+    border: solid 2px red;
+    font-size: 1rem;
+    border-radius: 12px;
+    
+}
+#Motivate-Button:hover {
+    margin-top: 20px;
+    height: 30px;
+    width: 90px;
+    color: red;
+    border: solid 2px rgb(218, 8, 218);
+    font-size: 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    
+}
